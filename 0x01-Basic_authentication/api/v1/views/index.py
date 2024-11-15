@@ -32,3 +32,11 @@ def test_401():
     Test error handler 401
     """
     abort(401)
+
+
+@app_views.route('/forbidden')
+def test_403():
+    """
+    Test error handler 403
+    """
+    abort(403)
