@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This class manages the API Authentication
+Manage the API Authentication
 """
 from flask import request
 from typing import TypeVar
