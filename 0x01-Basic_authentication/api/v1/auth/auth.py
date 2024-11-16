@@ -4,7 +4,7 @@ Manage the API Authentication
 This class is the template for all authentications
 """
 from flask import request
-from typing import TypeVar
+from typing import TypeVar, List
 
 
 class Auth:
@@ -12,7 +12,7 @@ class Auth:
     def require_auth(
             self,
             path: str,
-            excluded_paths: list[str]
+            excluded_paths: List[str]
             ) -> bool:
         """ Will be handled later """
         return False
